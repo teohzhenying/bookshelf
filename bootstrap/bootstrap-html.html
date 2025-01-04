@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta content -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="books, bookshelf">
+    <meta name="author" content="Zhen Ying">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.min.css">
+    <!-- title -->
+    <title>zhen ying's bookshelf</title>
+  </head>
+  <body>
+    <!-- container gives default left and right spacing -->
+    <div class="container">
+      <!-- page title -->
+      <header>
+        <h1 class="title">zhen ying's bookshelf</h1>
+      </header>
+      <!-- navigation menu -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiar menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#BooksRead">books that i have read</a>
+              <a class="nav-link" href="#BooksToRead">to be read bookshelf</a>
+              <a class="nav-link" href="#Contact-form">contact form</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Notes: Takes the same amount of onboarding time as vanilla HTML and CSS -->
+      <!-- books that have been read and links -->
+      <!-- No longer need grid container in css file after using col-md-3 -->
+      <!-- tested several other col-md-*insert number* so that 5 books can be arranged in one line, 
+       similar to main.html, but it was not that neat -->
+      <section id="BooksRead">
+        <h1>books that i have read</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/top_ten.jpg" alt="Top Ten by Katie Cotugno">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31166762086"> Top Ten by Katie Cotugno </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/dear_founder.jpg" alt="Dear Founder: Letters of Advice for Anyone Who Leads, Manages, or Wants to Start a Business">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30776141514"> Dear Founder: Letters of Advice for Anyone Who Leads, Manages, or Wants to Start a Business by Maynard Webb </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/future-stories.jpg" alt="Future Stories: A User's Guide to the Future by David Christian">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31527712389"> Future Stories: A User's Guide to the Future by David Christian </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/steve_jobs.jpg" alt="Steve Jobs by Walter Isaacson">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=32090072248"> Steve Jobs by Walter Isaacson </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/uncanny_valley.jpg" alt="Uncanny Valley by Anna Wiener">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31860697163"> Uncanny Valley by Anna Wiener </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/ninth_house.jpg" alt="Ninth House by Leigh Bardugo">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30820867599"> Ninth House by Leigh Bardugo </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/the_elizas.jpg" alt="The Elizas by Sara Shepard">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30785863965"> The Elizas by Sara Shepard </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/invent_and_wander.jpg" alt="Invent and Wander: The Collected Writings of Jeff Bezos">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=32027182594"> Invent and Wander: The Collected Writings of Jeff Bezos </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/the_circle.jpg" alt="The Circle by Dave Eggers">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31723281689"> The Circle by Dave Eggers </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/hatching_twitter.jpg" alt="Twitter: A True Story of Money, Power, Friendship, and Betrayal by Nick Bilton">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31994610072"> Twitter: A True Story of Money, Power, Friendship, and Betrayal by Nick Bilton </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/circe.jpg" alt="Circe by Madeline Miller">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30776154031"> Circe by Madeline Miller </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="grid-item">
+              <img src="../book-images/the_truth_hurts.jpeg" alt="The Truth Hurts by Rebecca Reid">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31139585838"> The Truth Hurts by Rebecca Reid </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- books to read -->
+      <!-- added row row-cols-5 for bootstrap. this one didn't seem wonky -->
+      <section id="BooksToRead">
+        <h1>books that i want to read</h1>
+        <div class="row row-cols-5">
+          <div class="col">
+            <figure class="grid-item">
+              <img src="../book-images/gods_and_heroes.jpg" alt="Gods and Heroes of Ancient Greece by Gustav Schwab">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30785264319"> Gods and Heroes of Ancient Greece by Gustav Schwab </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="grid-item">
+              <img src="../book-images/discrete-math.jpg" alt="Discrete Mathematics and its Applications by Kenneth Rosen">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=12094124093"> Discrete Mathematics and its Applications by Kenneth Rosen </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="grid-item">
+              <img src="../book-images/palo-alto.jpg" alt="Palo Alto: A History of California, Capitalism, and the World by Malcolm Harris">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31942270908"> Palo Alto: A History of California, Capitalism, and the World by Malcolm Harris </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="grid-item">
+              <img src="../book-images/midnight-library.jpg" alt="The Midnight Library by Matt Haig">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=32067800893"> The Midnight Library by Matt Haig </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="grid-item">
+              <img src="../book-images/the-airbnb-story.jpg" alt="The Airbnb Story: How Three Ordinary Guys Disrupted an Industry, Made Billions.and Created Plenty of Controversy by Leigh Gallagher">
+              <figcaption>
+                <a href="https://www.abebooks.com/servlet/BookDetailsPL?bi=31780776101"> The Airbnb Story: How Three Ordinary Guys Disrupted an Industry, Made Billions.and Created Plenty of Controversy by Leigh Gallagher </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!--  submit form for suggestions on books to read -->
+      <!-- for Bootsrap, I added required class="form-control" and class="btn btn-primary" -->
+      <h3 class="form_title">Let me know what other books you think I should read!</h3>
+      <form id="Contact-form">
+        <div class="mb-3">
+          <label for="name">Name: <input type="text" id="name" name="name" required class="form-control">
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="email">Email: <input type="email" id="email" name="email" required class="form-control">
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="subject">Subject: <select id="subject" name="subject" required class="form-control">
+              <option value="general">General Inquiry</option>
+              <option value="book_recommendations">Book Recommendations</option>
+            </select>
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="message">Message: <textarea id="message" name="message" rows="5" required class="form-control"></textarea>
+          </label>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      <footer>
+        <!-- made by -->
+        <p class="made_with">Made with &#10084;&#65039; and &#9749;</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+  </body>
+</html>
