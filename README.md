@@ -11,3 +11,4 @@ main (normal CSS) uses average CPU of 1.7% and renders in a duration of 5s, foun
 <img width="1470" alt="Screenshot 2025-01-04 at 3 45 31 PM" src="https://github.com/user-attachments/assets/6bb44432-c6bb-4d97-b624-09133f44135f" />
 
 Disclaimer for educational purposes: I had ChatGPT's help in checking my grid code so that my images will align properly.
+Inspired by: https://www.youtube.com/watch?v=-Ln-8QM8KhQ 
